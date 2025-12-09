@@ -8,22 +8,56 @@
   "short_name": "BrewFest",
   "start_url": "/",
   "theme_color": "#3E2723",
+  "icons": [{
+  "name": "CRAFTBEER 2024",
+  "short_name": "craftbeer 2024",
+  "start_url": "https://craft-beer.vercel.app/",
+  "display": "standalone",
+  "description": "projeto final",
+  "lang": "pt-BR",
+  "dir": "auto",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "any",
   "icons": [
     {
-      "src": "https://craft-beer.vercel.app/favicon.png",
+      "src": "https://www.pwabuilder.com/assets/icons/pwa-512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "sizes": "48x48",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 48,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "purpose": "maskable"
     },
     {
-      "src": "https://craft-beer.vercel.app/icon-192x192.png",
+      "src": "https://www.pwabuilder.com/assets/icons/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "A screenshot of the home page"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform":"windows",
+      "url": " The URL to your app in that app store"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name":"The name you would like to be displayed for your shortcut",
+      "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
+      "description":"A description of the functionality of this shortcut"
+    }
+  ]
+  }
+    {
+      "src": "https://craft-beer.vercel.app/pwa-192x192.png",
       "isSquare": false,
       "isPng": true,
       "isWebp": false,
@@ -34,7 +68,7 @@
       "is192x192": false
     },
     {
-      "src": "https://craft-beer.vercel.app/icon-144x144.png",
+      "src": "https://craft-beer.vercel.app/pwa-512x512.png",
       "isSquare": false,
       "isPng": true,
       "isWebp": false,
