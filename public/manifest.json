@@ -2,7 +2,7 @@
   "name": "BrewFest 2024",
   "short_name": "BrewFest",
   "description": "App do Festival de Cervejas",
-  "start_url": "/",
+  "start_url": "https://craft-beer.vercel.app/",
   "display": "standalone",
   "background_color": "#FFF8E1",
   "theme_color": "#3E2723",
